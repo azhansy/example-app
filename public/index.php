@@ -33,6 +33,10 @@ if (file_exists($maintenance = __DIR__.'/../storage/framework/maintenance.php'))
 
 require __DIR__.'/../vendor/autoload.php';
 
+
+use Symfony\Component\ErrorHandler\Debug;
+
+Debug::enable();
 /*
 |--------------------------------------------------------------------------
 | Run The Application
@@ -43,7 +47,7 @@ require __DIR__.'/../vendor/autoload.php';
 | to this client's browser, allowing them to enjoy our application.
 |
 */
-
+//引入核心启动文件
 $app = require_once __DIR__.'/../bootstrap/app.php';
 
 $kernel = $app->make(Kernel::class);

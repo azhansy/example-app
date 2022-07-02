@@ -24,7 +24,7 @@
 </head>
 <body>
 <input type="hidden" id="TenantId" name="TenantId" value="" />
-<div class="header"></div>
+<div class="header"><h1>海之蓝环保管家一体化系统</h1></div>
 <div class="loginWraper">
     <div id="loginform" class="loginBox">
         <form class="form form-horizontal" action="index.html" method="post">
@@ -61,19 +61,19 @@
         </form>
     </div>
 </div>
-<div class="footer">Copyright 你的公司名称 by H-ui.admin v3.1</div>
+<div class="footer">Copyright 湛江海之蓝环保科技有限公司</div>
 <script type="text/javascript" src="lib/jquery/1.9.1/jquery.min.js"></script>
 <script type="text/javascript" src="static/h-ui/js/H-ui.min.js"></script>
-<!--此乃百度统计代码，请自行删除-->
-<script>
-    var _hmt = _hmt || [];
-    (function() {
-        var hm = document.createElement("script");
-        hm.src = "https://hm.baidu.com/hm.js?080836300300be57b7f34f4b3e97d911";
-        var s = document.getElementsByTagName("script")[0];
-        s.parentNode.insertBefore(hm, s);
-    })();
-</script>
-<!--/此乃百度统计代码，请自行删除
-</body>
-</html>
+{{--<!--此乃百度统计代码，请自行删除-->--}}
+{{--<script>--}}
+{{--    var _hmt = _hmt || [];--}}
+{{--    (function() {--}}
+{{--        var hm = document.createElement("script");--}}
+{{--        hm.src = "https://hm.baidu.com/hm.js?080836300300be57b7f34f4b3e97d911";--}}
+{{--        var s = document.getElementsByTagName("script")[0];--}}
+{{--        s.parentNode.insertBefore(hm, s);--}}
+{{--    })();--}}
+{{--</script>--}}
+{{--<!--/此乃百度统计代码，请自行删除--}}
+{{--</body>--}}
+{{--</html>--}}

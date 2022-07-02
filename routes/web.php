@@ -16,7 +16,7 @@ use Illuminate\Support\Facades\Route;
 // 引入定义好的后台路由文件
 include base_path('routes/admin/admin.php');
 
-Route::get('/index', function () {
+Route::get('/', function () {
     return view('welcome');
 });
 //Route::get('/greeting', function () {

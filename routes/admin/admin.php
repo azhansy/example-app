@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\Admin\LoginController;
 use Illuminate\Support\Facades\Route;
+
 // 后台路由
 //Route::prefix('admin')->group(function () {
 //    Route::get('/login', function () {
@@ -19,6 +20,6 @@ use Illuminate\Support\Facades\Route;
 //});
 
 Route::controller(LoginController::class)->group(function () {
-    Route::get('/admin/login', 'index');
-    Route::post('/admin/login', 'login');
+    Route::get('/admin/login', 'index')->name('admin.login');
+    Route::post('/admin/login', 'login')->name('admin.login');
 });

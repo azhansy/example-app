@@ -25,6 +25,8 @@ class LoginController extends Controller
 //            'password.required' => '请输入正确的账号和密码！'
         ]);
         dump($post);
-        dump($request->all());
+//        dump($request->all());
+//        return view('admin.index');
+
     }
 }
